@@ -1,0 +1,13 @@
+- in the file upload, the file size must be checked and it must be under 100 KB.
+- in the file upload, the name must be randomized when it stores on the server.
+- When viewing the profile, the application must have a proper the access control to prevent IDOR.
+- if logs are being used, the data that is written to the logs must be sanitized beforehand.
+- in the file upload, the allowed file extensions should not posed any security risk. 
+- when working with the session, the input given must be sanitized 
+- when working with SQL queries, the inputs to the sql queries must be sanitized.
+- the app must run in the debug mode.
+- broken algorithms like MD5 should not be used for login purposes.
+- the cookies must enable httponly and secure cookies as best practices.
+- when reading from the database, the fields should be sanitized before outputting the values.
+- the checkout page must make sure each discount code is used once. the same or multiple discount codes must not be allowed to use
+
